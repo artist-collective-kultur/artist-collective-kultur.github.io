@@ -8,9 +8,29 @@
 
 <body>
     <header>
-        <h1>Welcome to the Artist Collective</h1>
+        <h1>Welcome to the Artist Collective Website</h1>
+
+        <!-- hammer animation-->
+        <style>
+            @keyframes walk {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(30vw); }
+            }
+            .robot {
+                display: inline-block;
+                animation: walk 4s linear infinite;
+                font-size: 3em;
+            }
+        </style>
+        <div class="robot">🔨</div>
+
         <!-- Contact informations -->
+         <h2>Contact Us</h2>
         <p>Email: artist.collective.kultur [at] proton.me </p>
         <p>Instagram: @artist_collective_ork</p>
+        <p>Whatsapp: 
+            <img src="whatsapp QR.png" alt="WhatsApp QR Code" style="width: 150px; height: 150px;">
+        </p>
+        
     </header>
 </body>
