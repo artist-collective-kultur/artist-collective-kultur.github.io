@@ -1,6 +1,6 @@
 
 body {
-  margin: 5vh 5vw 5vh 5vw;
+  margin: 5vh 5vw 5vh 8vw;
   background-image: url("KM_C451i26013115271.jpg");
   background-repeat:no-repeat;
   background-attachment: fixed;
@@ -20,8 +20,8 @@ h1 {
   color:rgb(0, 0, 0);
 }
 
-.bottom-fourty {
-     margin-bottom: 40vh;
+.bottom-quarter {
+     margin-bottom: 25vh;
   }
 
 /*colomuns*/
