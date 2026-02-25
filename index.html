@@ -8,22 +8,30 @@
 
 <body>
     <header>
-        <h1 class="bottom-thirty"> <mark> Welcome to the Artist Collective Website </mark> </h1>
+        <h1 class="bottom-fourty"> Welcome to the Artist Collective Website </h1>
 
         <!-- hammer animation-->
         <style>
             @keyframes walk {
-                0% { transform: translateX(0vh); }
-                100% { transform: translateX(25vh); }
+                0% { transform: translateY(-50vh); }
+                100% { transform: translateY(0vh);}
+            }
+            @keyframes rotate {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(-360deg); }
             }
             .robot {
                 display: inline-block;
                 animation: walk 4s linear infinite;
                 font-size: 3em;
             }
+            .hammer {
+                display: inline-block;
+                animation: rotate 1.5s linear infinite;
+            }
         </style>
 
-        <div class="robot">🔨</div>
+        <div class="robot"><p class="hammer">🔨</p></div>
 
         <!-- Contact informations -->
          <section style="text-align:justify;">

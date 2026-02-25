@@ -2,9 +2,9 @@
 body {
   margin: 5vh 5vw 5vh 5vw;
   background-image: url("KM_C451i26013115271.jpg");
-  background-repeat:repeat-x;
+  background-repeat:no-repeat;
   background-attachment: fixed;
-  background-size: 50vh 50vh;
+  background-size: max(50vw, 50vh) max(50vw, 50vh);
 }
 
 /*center class for images*/
@@ -17,11 +17,11 @@ body {
 
 h1 {
   text-align: center;
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
 }
 
-.bottom-thirty {
-     margin-bottom: 35vh;
+.bottom-fourty {
+     margin-bottom: 45vh;
   }
 
 /*colomuns*/
@@ -42,4 +42,10 @@ h1 {
 mark {
   background-color: white;
   color: black;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
