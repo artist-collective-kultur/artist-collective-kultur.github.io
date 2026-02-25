@@ -4,7 +4,7 @@ body {
   background-image: url("KM_C451i26013115271.jpg");
   background-repeat:no-repeat;
   background-attachment: fixed;
-  background-size: max(50vw, 50vh) max(50vw, 50vh);
+  background-size: min(100vw, 100vh) min(100vw, 100vh);
 }
 
 /*center class for images*/
@@ -21,7 +21,7 @@ h1 {
 }
 
 .bottom-fourty {
-     margin-bottom: 45vh;
+     margin-bottom: 40vh;
   }
 
 /*colomuns*/
