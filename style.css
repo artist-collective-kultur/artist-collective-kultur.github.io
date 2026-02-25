@@ -1,10 +1,10 @@
 
 body {
-  margin: 10vh 10vw 10vh 55vw;
+  margin: 55vh 5vw 10vh 5vw;
   background-image: url("KM_C451i26013115271.jpg");
-  background-repeat: no-repeat;
+  background-repeat:repeat-x;
   background-attachment: fixed;
-  background-size: max(50vw, 50vh) max(50vw, 50vh);
+  background-size: 50vh 50vh;
 }
 
 /*center class for images*/
