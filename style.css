@@ -4,7 +4,7 @@ body {
   background-image: url("KM_C451i26013115271.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 50vw 50vw;
+  background-size: max(50vw, 50vh) max(50vw, 50vh);
 }
 
 /*center class for images*/
