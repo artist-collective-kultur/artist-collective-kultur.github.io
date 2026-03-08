@@ -1,4 +1,6 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,41 +9,132 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="bottom-quarter"> Welcome to the Artist Collective Website </h1>
+    <div class="container">
+        <!-- Left column with prints -->
+        <div class="left-column">
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print2.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print12.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print4.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print6.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print8.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print10.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print14.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print16.PNG" alt="Art print">
+            </div>
+        </div>
 
-        <!-- hammer animation-->
-        <style>
-            @keyframes walk {
-                0% { transform: translateY(-50vh); }
-                100% { transform: translateY(0vh);}
-            }
-            @keyframes rotate {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(-360deg); }
-            }
-            .robot {
-                display: inline-block;
-                animation: walk 4s linear infinite;
-                font-size: 3em;
-            }
-            .hammer {
-                display: inline-block;
-                animation: rotate 1.5s linear infinite;
-            }
-        </style>
 
-        <div class="robot"><p class="hammer">🔨</p></div>
+    
 
-        <!-- Contact informations -->
-         <section style="text-align:justify;">
-            <h2>Contact Us </h2>
-            <p> Email: artist.collective.kultur [at] proton.me </p>
-            <p> Instagram: @artist_collective_ork </p>
-            <p>  Whatsapp: 
-                <img src="whatsapp QR.png" alt="WhatsApp QR Code" style="width: 150px; height: 150px;">
-            </p>
-        </section>
+        <!-- Center column with content sections -->
+        <div class="center-column">
+            <!-- Title section -->
+            <header>
+                <h1>Welcome to the Artist Collective Website 🎨</h1>
+            </header>
+
+            <!-- Upcoming Event Section -->
+            <section class="event-section">
+                <h2>Upcoming Event: Welcome Day!</h2>
+                <p>The artist collective is starting at TU again!</p>
+                <p>We invite you to our first meeting on the 14.3. at in the Freihaus. 
+                    After a breaf presentation of upcoming events, workshops and plans the room will be opened up for everyone to craft, mingle and have fun together.</p>
+                <p>Some snaks and material will be provided, however we encourage everyone to bring their own projects to work on :D</p>
+                <p>When: 14:00</p>
+                <p>Where: Dissetanten Zimmer (Room Number <a href="https://maps.tuwien.ac.at/?q=DA08B19">DA08B19</a>)</p>
+                <p>Cost: free</p>
+            </section>
+
+            <div class="image-section">
+                <div class="print">
+                    <img src="Images/Prints/all_prints_high_contrast/print2.PNG" alt="Art print">
+                </div>
+                <div class="print">
+                    <img src="Images/Prints/all_prints_high_contrast/print12.PNG" alt="Art print">
+                </div>
+            </div>
+
+            <!-- Site Description Section -->
+            <section class="description-section">
+                <h2>About Our Collective</h2>
+                <p>The Artist Collective serves as a space for people to freely exercise and develop their creative skills.</p>
+                    
+                <p>We provide a platform for artists to share their work, receive feedback, and collaborate with each other. 
+                    Our collective is open to all artists, regardless of their background or experience.</p>
+                    
+                <p>To help each other grow artistically we host events including exhibitions, workshops, and collaborative projects.</p>
+            </section>
+
+            <div class="image-section">
+                <div class="print">
+                    <img src="Images/Prints/all_prints_high_contrast/print5.PNG" alt="Art print">
+                </div>
+                <div class="print">
+                    <img src="Images/Prints/all_prints_high_contrast/print7_11.PNG" alt="Art print">
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <section class="contact-section">
+                <h2>Contact Us</h2>
+                <p>Email: artist.collective.kultur [at] proton.me</p>
+                <p>Instagram: @artist_collective_ork</p>
+                <p>Whastapp:
+                    <img src="whatsapp QR.png" alt="WhatsApp QR Code" style="width: 150px; height: 150px;">
+                </p>
+            </section>
+
+            <div class="image-section">
+                <div class="print">
+                    <img src="Images/Prints/all_prints_high_contrast/print8.PNG" alt="Art print">
+                </div>
+                <div class="print">
+                    <img src="Images/Prints/all_prints_high_contrast/print9.PNG" alt="Art print">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right column with prints -->
+        <div class="right-column">
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print1.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print3.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print5.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print7_11.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print9.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print13.PNG" alt="Art print">
+            </div>
+            <div class="print">
+                <img src="Images/Prints/all_prints_high_contrast/print15.PNG" alt="Art print">
+            </div>
+        </div>
         
-    </header>
+    </div>
 </body>
+
+</html>
